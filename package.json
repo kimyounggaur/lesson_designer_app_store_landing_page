@@ -1,0 +1,11 @@
+{
+  "name": "lesson-designer-app-store-landing-page",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test",
+    "sync-catalog": "node scripts/sync-catalog.mjs"
+  }
+}
